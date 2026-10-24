@@ -1,0 +1,11 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+pydantic-settings==2.7.0
+httpx==0.28.1
+python-multipart==0.0.20
+pillow==11.0.0
+
+# Optional — only needed for the corresponding feature
+python-amazon-paapi==5.2.0  # Amazon enrichment (needs PA-API keys)
+playwright==1.49.1        # Blinkit adapter (run: playwright install chromium)
